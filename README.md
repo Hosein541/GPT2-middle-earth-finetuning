@@ -118,8 +118,9 @@ Prompt Context: `When Bilbo came to himself...`
 ### 1. Installation
 
 ```bash
-git clone [https://github.com/](https://github.com/)/.git
-cd 
+git clone https://github.com/Hosein541/GPT2-middle-earth-finetuning.git
+cd GPT2-middle-earth-finetuning
+
 pip install -r requirements.txt
 
 ```
