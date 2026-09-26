@@ -148,6 +148,7 @@ generate_and_print_sample(model, tokenizer, device, context)
 │   └── loss_curve.png             # Training & Validation loss visualization
 ├── uitls.py                       # Core transformer blocks, attention modules & dataset loaders
 ├── GPT2_lotr.ipynb                # Data preparation, Training engine with accumulation, warmup & scheduler
+├── sample.txt                     # Sample text snippet for pipeline testing & validation
 ├── requirements.txt               # Dependencies
 └── README.md                      # Documentation
 
