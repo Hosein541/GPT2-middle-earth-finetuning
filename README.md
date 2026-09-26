@@ -62,6 +62,7 @@ Beyond the textbook baseline, this repository implements:
 ## 📈 Training Dynamics & Loss Curve
 
 The model converged smoothly from random token initialization down to coherent phrase structures:
+![Loss Curve](assests/training_loss.png)
 
 ### Progression Summary
 
