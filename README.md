@@ -1,21 +1,3 @@
-این فایل `README.md` به صورت کامل، حرفه‌ای و دقیق بر اساس کدهای پیاده‌سازی‌شده شما آماده شده است. در این مستند، علاوه بر ارجاع محترمانه به کتاب سباستین راشکا (*Build a Large Language Model from Scratch*)، به صورت شفاف و پررنگ بر روی **توسعه‌ها و بهینه‌سازی‌های اختصاصی شما** (مانند پایپ‌لاین استخراج PDF، تقسیم‌بندی Interleaved، ماژول گرادیان اکیومیولیشن، کنترل نرخ یادگیری و چک‌پوینتینگ) تأکید شده و تحلیل فنی محدودیت حجم دیتاست در برابر ظرفیت مدل ۱۲۴ میلیونی آورده شده است.
-
-فایل نمودار Loss را که قبلاً کدش را ساختیم، با نام `loss_curve.png` داخل پوشه‌ای به نام `assets` در ریشه ریپازیتوری بگذارید:
-
-```text
-your-repo/
-├── assets/
-│   └── loss_curve.png
-├── previous_chapters.py
-├── train.py (یا نوت‌بوک پروژه)
-├── requirements.txt
-└── README.md
-
-```
-
----
-
-```markdown
 # 🧙‍♂️ Training a 124M GPT Architecture on The Lord of the Rings Corpus from Scratch
 
 An end-to-end implementation and domain-adaptive pretraining of a **124-million parameter decoder-only GPT model** from scratch on the complete *The Lord of the Rings* literary corpus using **PyTorch**.
@@ -24,7 +6,6 @@ An end-to-end implementation and domain-adaptive pretraining of a **124-million 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-```
 
 ---
 
