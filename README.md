@@ -57,9 +57,8 @@ Beyond the textbook baseline, this repository implements:
 > * **Parameter Scale**: The architecture hosts **~124 million parameters** (12 layers, 12 attention heads, 768 embedding dimension).
 > * **The Data-Hungry Nature of LLMs**: According to scaling laws (e.g., Chinchilla / Hoffmann et al.), training a 124M model from scratch optimally demands hundreds of millions (to billions) of tokens. With ~0.6M tokens, the parameter space is vastly larger than the unique token surface.
 > * **Observed Dynamics**: The cross-entropy loss drops rapidly from initial baseline (`~10.90`) down to `3.20` on training data. However, the validation loss plateaus around `~4.44` (producing a ~1.2 loss gap at Step 630), representing natural data saturation and early overfitting.
-> * **Takeaway**: While small corpora are insufficient to build an open-domain foundation model, this experiment successfully demonstrates how rapidly the model acquires **domain-specific syntax, Tolkien-esque character naming, and localized narrative rhythm**.
-> 
-> 
+> * **Takeaway**: While small corpora are insufficient to build an open-domain foundation model, this experiment successfully demonstrates how rapidly the model acquires **domain-specific syntax, Tolkien-esque character naming, and localized narrative rhythm**. 
+
 
 ---
 
