@@ -131,13 +131,8 @@ pip install -r requirements.txt
 
 To train the model on your own legal copy:
 
-1. Place your text files in the project root: `lotr1.txt`, `lotr2.txt`, `lotr3.txt` (or provide the PDFs for the extraction script).
-2. Run the preprocessing and training pipeline:
+Place your text files in the project root: `lotr1.txt`, `lotr2.txt`, `lotr3.txt` (or provide the PDFs for the extraction extract_and_clean_pdf function).
 
-```bash
-python train.py
-
-```
 
 ### 3. Generate from Checkpoint
 
