@@ -144,7 +144,7 @@ python train.py
 ```python
 import torch
 import tiktoken
-from previous_chapters import GPTModel, generate_and_print_sample
+from utils import GPTModel, generate_and_print_sample
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tokenizer = tiktoken.get_encoding("gpt2")
@@ -169,9 +169,8 @@ generate_and_print_sample(model, tokenizer, device, context)
 ```text
 ├── assets/
 │   └── loss_curve.png             # Training & Validation loss visualization
-├── previous_chapters.py           # Core transformer blocks, attention modules & dataset loaders
-├── data_prep.py                   # Custom PyMuPDF extraction & interleaved splitting logic
-├── train.py                       # Training engine with accumulation, warmup & scheduler
+├── uitls.py                       # Core transformer blocks, attention modules & dataset loaders
+├── GPT2_lotr.ipynb                # Data preparation, Training engine with accumulation, warmup & scheduler
 ├── requirements.txt               # Dependencies
 └── README.md                      # Documentation
 
@@ -184,8 +183,5 @@ generate_and_print_sample(model, tokenizer, device, context)
 * **Sebastian Raschka** for the educational GPT architecture foundation in *Build a Large Language Model from Scratch*.
 * **PyTorch** & **Tiktoken** for efficient tensor computation and tokenization.
 
-```
-
-```
 
 ---
